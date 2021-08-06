@@ -2,5 +2,16 @@
 	"name": "Code",
 	"build": {
 		"dockerfile": "Dockerfile",
+	},
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/.devcontainer": true,
+			"**/.gitignore": true
+		}
 	}
 }
