@@ -12,6 +12,7 @@
 			"**/.DS_Store": true,
 			"**/.devcontainer": true,
 			"**/.gitignore": true
-		}
+		},
+		"extensions.ignoreRecommendations": true
 	}
 }
