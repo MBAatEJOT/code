@@ -12,5 +12,7 @@
         "**/.gitpod.yml": true
     },
     "extensions.ignoreRecommendations": true,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Default Dark+"
 }
