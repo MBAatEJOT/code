@@ -10,5 +10,6 @@
         "**/.devcontainer": true,
         "**/.vscode": true,
         "**/.gitpod.yml": true
-    }
+    },
+	"extensions.ignoreRecommendations": true
 }
