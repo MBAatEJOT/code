@@ -11,5 +11,6 @@
         "**/.vscode": true,
         "**/.gitpod.yml": true
     },
-	"extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "workbench.activityBar.visible": false
 }
