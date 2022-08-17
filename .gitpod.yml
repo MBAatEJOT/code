@@ -1,1 +1,2 @@
-image: ncc2909m/development:latest
+image:
+  file: .devcontainer/Dockerfile
