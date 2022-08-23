@@ -10,7 +10,8 @@
         "**/.devcontainer": true,
         "**/.vscode": true,
         "**/.gitpod.yml": true,
-        "**/.examples": false
+        "**/.examples": true,
+        "**/.scripts": true
     },
     "extensions.ignoreRecommendations": true,
     "workbench.activityBar.visible": false,
