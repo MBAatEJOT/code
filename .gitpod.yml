@@ -7,4 +7,4 @@ vscode:
 
 tasks:
   - name: Configure Bash
-    init: echo PS1=$"'\${debian_chroot:+(\$debian_chroot)}\\$ '" >> ~/.bashrc
+    command: echo PS1=$"'\${debian_chroot:+(\$debian_chroot)}\\$ '" >> ~/.bashrc
