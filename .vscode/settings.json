@@ -9,10 +9,11 @@
         "**/*.crswap": true,
         "**/.devcontainer": true,
         "**/.vscode": true,
-        "**/.gitpod.yml": true
+        "**/.gitpod.yml": true,
+        "**/.examples": false
     },
     "extensions.ignoreRecommendations": true,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Default Dark+",
-    "workbench.preferredDarkColorTheme": "Default Dark+"
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark - C++",
 }

@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open",
+            "command": "/bin/bash",
+            "type": "shell",
+            "args": [
+                "${workspaceFolder}/.scripts/open.sh",
+                "${workspaceFolder}/.examples/${input:fileName}.c",
+                "${workspaceFolder}/${input:fileName}.c"
+            ],
+            "problemMatcher": [],
+            "presentation": {
+                "echo": false,
+                "reveal": "never",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        }
+    ],
+    "inputs": [
+        {
+            "id": "fileName",
+            "type": "promptString",
+            "description": "Datei"
+        }
+    ]
+}
