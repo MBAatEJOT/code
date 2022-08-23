@@ -13,6 +13,7 @@
     },
     "extensions.ignoreRecommendations": true,
     "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
     "workbench.colorTheme": "Visual Studio Dark - C++",
-    "workbench.preferredDarkColorTheme": "Visual Studio Dark - C++",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark - C++"
 }
