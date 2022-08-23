@@ -4,3 +4,7 @@ image:
 vscode:
   extensions:
     - "ms-vscode.cpptools-themes"
+
+tasks:
+  - name: Configure Bash
+    command: echo PS1=$"'\${debian_chroot:+(\$debian_chroot)}\\$ '" >> ~/.bashrc
